@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  	<modelVersion>4.0.0</modelVersion>
+  	<groupId>com.mage.web</groupId>
+  	<artifactId>parkWeb</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<packaging>war</packaging>
+  	<description>Web 应用</description>
+  
+  	<properties>
+      	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+  	</properties>
+  	
+  	<dependencies>
+  	
+		<!-- 业务功能 -->
+  		<dependency>
+			<groupId>com.mage.park</groupId>
+		  	<artifactId>park</artifactId>
+		  	<version>${project.version}</version>
+		</dependency>
+		
+		<!-- cms在线编辑 
+  		<dependency>
+			<groupId>com.mage.cms</groupId>
+  			<artifactId>cms</artifactId>
+		  	<version>${project.version}</version>
+		</dependency>
+		-->
+		
+		<!--  
+		<dependency>
+		  	<groupId>javax.servlet.jsp</groupId>
+		  	<artifactId>jsp-api</artifactId>
+		  	<version>2.2</version>
+		  	<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		  	<groupId>javax.servlet</groupId>
+		  	<artifactId>servlet-api</artifactId>
+		  	<version>2.5</version>
+		  	<scope>provided</scope>
+		</dependency>
+		-->
+		
+	</dependencies>
+  	
+</project>
