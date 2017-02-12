@@ -14,4 +14,5 @@
 	<context:component-scan base-package="com.mage.park.**.service" />
 	
 	<bean id="localInterceptor" class="com.mage.park.common.interceptor.LocalInterceptor" lazy-init="false"/>
+	<bean id="localFrontProcessor" class="com.mage.park.common.view.LocalFrontProcessor" lazy-init="false"/>
 </beans>
